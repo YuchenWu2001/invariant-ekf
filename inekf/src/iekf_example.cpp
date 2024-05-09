@@ -27,7 +27,7 @@ struct ImuMeas
 
 int main()
 {
-    auto filepath = "/home/pvbs/Documents/mobrob-project/scripts/AGZ_subset";
+    auto filepath = "/home/wu/Documents/biorobotics/AGZ_subset";
     // try to open file, fail otherwise
     std::ifstream test_open(filepath);
     if (!test_open.is_open())
